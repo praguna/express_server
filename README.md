@@ -1,2 +1,2 @@
 ### Simple Api server using Express :
-* build it using npm install and run using npm start, used for hackathon
+* build it using npm install and run using npm start 

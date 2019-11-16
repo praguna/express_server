@@ -12,6 +12,10 @@ db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 app.use(express.json());
 app.use(cors());
 app.get('/', (req, res) => {
-  res.send({test :'Hello Hackathon!'});
+  res.send({test :'Hello from Hacathon!'});
 });
+
+app.listen(process.env.PORT, () =>
+  console.log(`Proxy Server Listening on port ${process.env.PORT}!`),
+);
 
